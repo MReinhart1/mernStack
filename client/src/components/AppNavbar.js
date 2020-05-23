@@ -7,12 +7,7 @@ import {
   Nav,
   NavItem,
   NavLink,
-  Container,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
+  Container
 } from 'reactstrap';
 
 
