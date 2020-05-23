@@ -19,10 +19,7 @@ router.post('/', (req, res) => {
   newItem = new Item({
     name: req.body.name
   });
-
-  newItem.save().then(function(req, res){
-    res.json(item);
-  });
+  newItem.save().then(item => res.json(item));
 });
 
 
